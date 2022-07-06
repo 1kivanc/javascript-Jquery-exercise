@@ -1,0 +1,17 @@
+body{
+    
+    background-color:#000000;
+}
+
+.clock{
+    text-align:center;
+
+    font-size:10rem;
+    color: #FAF3E3;
+    margin-top: 300px;
+    letter-spacing: 2px;
+    background: #FF9F29;
+    border-radius:20px;
+    
+
+}
