@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@100;400;500&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #2C2828;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+
+}form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 0;
+   
+    
+}input,button{
+    font-size: 1.2rem;
+    padding:10px 30px;
+    background-color: #fff;
+    border: none;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+input{
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.container{
+    justify-content: center;
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding:3rem;
+}
+
+.box{
+    margin:10px ;
+    width: 300px;
+    background-color: #fff;
+    border-radius:15px;
+
+}.box img {
+    width: 90%;
+    padding:10px;
+
+}.box h4 {
+    font-size: 1.4rem;
+    margin: 5px auto;
+}.box p{
+    
+    margin: 5px auto;
+    font-weight:bolder;
+}
